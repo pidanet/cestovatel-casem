@@ -1,0 +1,30 @@
+.one-button {
+  background-color: var(--light);
+  box-shadow: 0px 0px 8px var(--dark);
+  border: none;
+  font-size: 1em;
+  margin: 0px 0px 8px 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.one-button:focus {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.text-box {
+  padding: 30px;
+  background-color: var(--light);
+}
+
+.info-text {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .info-text {
+    max-width: 100%;
+  }
+}
